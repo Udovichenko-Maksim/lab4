@@ -1,5 +1,7 @@
-def gav_myau():
-    return "гав\nмяу"
+def gav_myau(n=1):
+    for _ in range(n):
+        print("гав")
+        print("мяу")
 
-# Вызов и печать результата
-print(gav_myau())
+# Вызов с 3 повторениями
+gav_myau(3)
