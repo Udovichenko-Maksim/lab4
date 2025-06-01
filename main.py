@@ -9,6 +9,9 @@ def print_job(job):
 def greet(name):
     return f"Hello, {name}!"
 
-def greet(sec_name):
-    return f"Hello, {sec_name}!"
+def print_sec_name(sec_name):
+    return f"Your second name is {sec_name}!"
+
+def print_animal(animal):
+    return f"Your animal is {animal}!"
 
